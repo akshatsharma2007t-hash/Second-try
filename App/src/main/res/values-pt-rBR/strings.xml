@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="append">Anexar:</string>
+    <string name="return_button">Voltar</string>
+    <string name="dialog_StarOnGitHub">Você gosta deste app? Dê-o uma estrela no GitHub ou compre um café para o desenvolvedor no PayPal.</string>
+    <string name="download_model">Baixar Modelo</string>
+    <string name="status">Estado:</string>
+    <string name="need_record_audio_permission">A permissão RECORD_AUDIO (gravar áudio) não foi concedida</string>
+    <string name="instructions">Pressione e segure o botão de microfone enquanto fala.</string>
+    <string name="copy_to_clipboard">Copiar</string>
+    <string name="info">Informação</string>
+    <string name="processing">Processando…</string>
+    <string name="start">INICIAR</string>
+    <string name="dialog_Later_button">Talvez depois</string>
+    <string name="please_wait">Por favor, aguarde…</string>
+    <string name="exit_button">Sair</string>
+    <string name="record_button">Gravar</string>
+    <string name="delete_button">Excluir</string>
+    <string name="model_output">Saída do modelo</string>
+    <string name="language">Idioma:</string>
+    <string name="mode_transcription">transcrição</string>
+    <string name="mode_translation">tradução</string>
+    <string name="translate">Traduzir para inglês:</string>
+    <string name="processing_done">Processamento concluído em </string>
+    <string name="voice_input">Entrada de Voz Whisper+</string>
+    <string name="simple_chinese">Chinês Simplificado:</string>
+    <string name="text_to_speech">Texto-para-fala:</string>
+    <string name="tts_language_not_supported">Texto para fala: O idioma não é suportado</string>
+    <string name="tts_initialization_failed">Texto para fala: A inicialização falhou</string>
+    <string name="auto_button">modo automático</string>
+    <string name="error_no_input">Nenhuma entrada de voz recebida</string>
+</resources>
