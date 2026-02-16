@@ -18,11 +18,11 @@ jobs:
           distribution: temurin
           java-version: 17
 
-      - run: chmod +x whisperIMEplus-master-MODIFIED/gradlew
+      - run: chmod +x whisperIMEplus-master/gradlew
 
-      - run: cd whisperIMEplus-master-MODIFIED && ./gradlew assembleDebug
+      - run: cd whisperIMEplus-master && ./gradlew assembleDebug
 
       - uses: actions/upload-artifact@v4
         with:
           name: whisperIMEplus-apk
-          path: whisperIMEplus-master-MODIFIED/app/build/outputs/apk/debug/*.apk
+          path: whisperIMEplus-master/app/build/outputs/apk/debug/*.apk
