@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="need_record_audio_permission">RECORD_AUDIO engedély nincs megadva</string>
+    <string name="download_model">Modell letöltése</string>
+    <string name="status">Állapot:</string>
+    <string name="append">Hozzáfűzés:</string>
+    <string name="translate">Fordítsa le angolra:</string>
+    <string name="copy_to_clipboard">Másolás</string>
+    <string name="info">Információ</string>
+    <string name="processing">Feldolgozás…</string>
+    <string name="start">INDÍTÁS</string>
+    <string name="dialog_StarOnGitHub">Tetszik ez az alkalmazás? Adjon egy csillagot a GitHubon, vagy vegyen a fejlesztőnek egy kávét a PayPal-on keresztül.</string>
+    <string name="dialog_Later_button">Talán később</string>
+    <string name="please_wait">Várjon…</string>
+    <string name="exit_button">Kilépés</string>
+    <string name="record_button">Rögzítés</string>
+    <string name="return_button">Vissza</string>
+    <string name="delete_button">Törlés</string>
+    <string name="model_output">Modell kimenete</string>
+    <string name="language">Nyelv:</string>
+    <string name="mode_transcription">átírás</string>
+    <string name="mode_translation">fordítás</string>
+    <string name="instructions">Beszéd közben nyomja meg és tartsa lenyomva a mikrofon gombot.</string>
+    <string name="processing_done">Feldolgozva ennyi idő alatt </string>
+    <string name="voice_input">Whisper+ hangbevitel</string>
+    <string name="error_no_input">Nincs hangbevitel</string>
+    <string name="simple_chinese">Egyszerűsített kínai:</string>
+    <string name="auto_button">automatikus üzemmód</string>
+    <string name="text_to_speech">Szövegből beszéddé alakítás:</string>
+    <string name="tts_language_not_supported">TTS: Nem támogatott nyelv</string>
+    <string name="tts_initialization_failed">TTS: Az előkészítés sikertelen</string>
+</resources>
