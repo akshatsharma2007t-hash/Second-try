@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="voice_input">Whisper+ Spracheingabe</string>
+    <string name="need_record_audio_permission">"RECORD_AUDIO Berechtigung fehlt"</string>
+    <string name="download_model">Modell herunterladen</string>
+    <string name="status">Status:</string>
+    <string name="append">Anhängen:</string>
+    <string name="translate">Auf English übersetzen:</string>
+    <string name="copy_to_clipboard">Kopieren</string>
+    <string name="info">Info</string>
+    <string name="processing">Verarbeitung…</string>
+    <string name="start">START</string>
+    <string name="dialog_StarOnGitHub">Mögen Sie diese App? Bitte vergeben Sie einen Stern auf GitHub oder spendieren Sie dem Entwickler einen Kaffee über PayPal.</string>
+    <string name="dialog_Later_button">Vielleicht später</string>
+    <string name="please_wait">Bitte warten…</string>
+    <string name="exit_button">Zurück</string>
+    <string name="record_button">Aufnahme</string>
+    <string name="return_button">Eingabe</string>
+    <string name="delete_button">Löschen</string>
+    <string name="model_output">Modellausgabe</string>
+    <string name="processing_done">Verarbeitet in\u2009</string>
+    <string name="language">Sprache:</string>
+    <string name="mode_transcription">Transkription</string>
+    <string name="mode_translation">Übersetzung</string>
+    <string name="instructions">Halten Sie die Mikrofontaste gedrückt während Sie sprechen.</string>
+    <string name="simple_chinese">Vereinfachtes Chinesisch:</string>
+    <string name="text_to_speech">Sprachausgabe:</string>
+    <string name="tts_language_not_supported">Sprachausgabe: Sprache nicht unterstützt</string>
+    <string name="tts_initialization_failed">Sprachausgabe: Initialisierung fehlgeschlagen</string>
+    <string name="auto_button">automatischer Modus</string>
+    <string name="error_no_input">Keine Sprache detektiert</string>
+    <string name="install_model">Modell installieren</string>
+    <string name="auto_lang">Sprache erkennen</string>
+    <string name="settings">Einstellungen</string>
+    <string name="settings_voice_input">Spracheingabe</string>
+    <string name="settings_ime">Eingabemethode (IME) &amp; Test</string>
+    <string name="settings_general">Allgemein</string>
+    <string name="whisper_test">Whisper+ Test</string>
+    <string name="settings_minimum_silence">Mindeststille im Automatikmodus (ms)</string>
+    <string name="lang1">Sprache 1</string>
+    <string name="lang2">Sprache 2</string>
+
+</resources>
