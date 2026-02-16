@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="need_record_audio_permission">Разрешение Запись аудио (RECORD_AUDIO) не предоставлено</string>
+    <string name="download_model">Скачать модель</string>
+    <string name="status">Состояние:</string>
+    <string name="append">Добавить:</string>
+    <string name="copy_to_clipboard">Копировать</string>
+    <string name="info">Информация</string>
+    <string name="processing">Обрабатывается…</string>
+    <string name="start">НАЧАТЬ</string>
+    <string name="dialog_StarOnGitHub">Вам нравится это приложение? Пожалуйста, поставьте звёздочку на GitHub или купите разработчику кофе через PayPal.</string>
+    <string name="dialog_Later_button">Может быть позже</string>
+    <string name="please_wait">Пожалуйста подождите…</string>
+    <string name="exit_button">Выйти</string>
+    <string name="record_button">Запись</string>
+    <string name="return_button">Вернуться</string>
+    <string name="delete_button">Удалить</string>
+    <string name="model_output">Выход модели</string>
+    <string name="processing_done">Обработка выполненная за </string>
+    <string name="language">Язык:</string>
+    <string name="mode_transcription">транскрипция</string>
+    <string name="mode_translation">перевод</string>
+    <string name="translate">Перевести на английский:</string>
+    <string name="auto_button">автоматический режим</string>
+    <string name="tts_initialization_failed">TTS: Сбой инициализации</string>
+    <string name="error_no_input">Не получено ввода голоса</string>
+    <string name="simple_chinese">Китайский (упрощённый):</string>
+    <string name="text_to_speech">Синтез речи:</string>
+    <string name="tts_language_not_supported">TTS: Язык не поддерживается</string>
+    <string name="voice_input">Источник голоса для Whisper+</string>
+    <string name="instructions">Нажмите и удерживайте микрофон пока говорите.</string>
+</resources>
