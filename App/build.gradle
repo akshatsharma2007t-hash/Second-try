@@ -1,0 +1,72 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.whisperonnx'
+    compileSdk 35
+
+    lintOptions{
+        disable 'MissingTranslation'
+    }
+    
+    defaultConfig {
+        applicationId "org.woheller69.whisperplus"
+        minSdk 28
+        targetSdk 35
+        versionCode 16
+        versionName "1.6"
+
+    }
+
+    buildFeatures {
+        buildConfig = true
+        viewBinding = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            ndk {
+                abiFilters "arm64-v8a"
+            }
+        }
+    }
+
+    // Removed externalNativeBuild block
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = '11'
+    }
+
+    dependenciesInfo {
+        // Disable including dependency metadata when building APKs
+        includeInApk = false
+        // Disable including dependency metadata when building Android App Bundles
+        includeInBundle = false
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.2.0'
+    implementation 'androidx.preference:preference:1.2.1'
+
+    implementation 'com.google.guava:guava:31.1-android'
+    implementation 'com.github.gkonovalov.android-vad:webrtc:2.0.9'
+    implementation 'com.github.houbb:opencc4j:1.8.1'
+
+    //ONNX Runtime
+    implementation 'com.microsoft.onnxruntime:onnxruntime-android:1.19.0'  //latest.release
+    implementation 'com.microsoft.onnxruntime:onnxruntime-extensions-android:0.12.4'   //latest.release
+    implementation 'com.github.woheller69:FreeDroidWarn:+'
+
+}
